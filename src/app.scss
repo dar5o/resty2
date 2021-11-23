@@ -1,0 +1,40 @@
+$backgroundColor: rgb(246, 198, 126);
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: $backgroundColor;
+  height: 100%;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header {
+    background: rgb(153, 80, 80);
+    border-bottom: 1px solid black;
+    color: #eee;
+    text-align: center;
+  }
+
+  footer {
+    background: rgb(153, 80, 80);
+    border-top: 1px solid rgb(172, 180, 172);
+    padding: 1em 3em;
+    text-align: center;
+  }
+
+  #get, #post, #put, #delete {
+    background: rgb(173, 141, 141);
+    box-shadow: 5px 10px 15px black;
+    border-radius: 100px;
+  }  
+  #get:hover, #post:hover, #put:hover, #delete:hover {
+    background: rgb(166, 196, 178);
+    transform: scale(1.1);
+  }  
+}
