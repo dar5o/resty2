@@ -1,13 +1,9 @@
 import React from 'react';
-import ReactJson from 'react-json-view';
 
 const Results = (props) => {
   return (
   <section>
-    <pre data-testid="data">
-      {props.data 
-      ? <ReactJson src={props.data} />
-      : <p>Loading...</p>}</pre>
+    <pre data-testid="data">{props.data ? JSON.stringify(props.data, undefined, 2) : <p>Loading...</p>}</pre>
     </section>
   );
 }
