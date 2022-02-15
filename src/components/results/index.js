@@ -1,13 +1,15 @@
 import React from 'react';
+import ReactJson from 'react-json-view';
 
-class Results extends React.Component {
-  render() {
-    return (
-      <section>
-        <pre>{this.props.data ? JSON.stringify(this.props.data, undefined, 2) : null}</pre>
-      </section>
-    );
-  }
+const Results = (props) => {
+  return (
+  <section>
+    <pre data-testid="data">
+      {props.data 
+      ? <ReactJson src={props.data} />
+      : <p>Loading...</p>}</pre>
+    </section>
+  );
 }
 
 export default Results;
