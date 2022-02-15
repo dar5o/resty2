@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from "react";
+import axios from 'axios';
 import './app.scss';
 
 // Let's talk about using index.js and some other name in the component folder
