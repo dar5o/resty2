@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dar5o/resty2/static/css/main.857d0fda.chunk.css",
+    "main.js": "/dar5o/resty2/static/js/main.e95f0ba3.chunk.js",
+    "main.js.map": "/dar5o/resty2/static/js/main.e95f0ba3.chunk.js.map",
+    "runtime-main.js": "/dar5o/resty2/static/js/runtime-main.7ec6be10.js",
+    "runtime-main.js.map": "/dar5o/resty2/static/js/runtime-main.7ec6be10.js.map",
+    "static/js/2.a09bf0c7.chunk.js": "/dar5o/resty2/static/js/2.a09bf0c7.chunk.js",
+    "static/js/2.a09bf0c7.chunk.js.map": "/dar5o/resty2/static/js/2.a09bf0c7.chunk.js.map",
+    "index.html": "/dar5o/resty2/index.html",
+    "static/css/main.857d0fda.chunk.css.map": "/dar5o/resty2/static/css/main.857d0fda.chunk.css.map",
+    "static/js/2.a09bf0c7.chunk.js.LICENSE.txt": "/dar5o/resty2/static/js/2.a09bf0c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ec6be10.js",
+    "static/js/2.a09bf0c7.chunk.js",
+    "static/css/main.857d0fda.chunk.css",
+    "static/js/main.e95f0ba3.chunk.js"
+  ]
+}
